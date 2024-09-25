@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body{
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		height: 90vh;
+		align-items: center;
+		background: url("https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80");
+		font-family: Calibri;	
+		border:"groove 2px";
+}
+.form{
+	background-color: pink;
+	padding: 15px ;
+	box-shadow: 0 4px 8px ;	
+}
+.input{
+	Font-size: 25px;
+	display : block ; 
+	width: 100%;
+	cursor: pointer;
+	
+}
+.SubmitButton{
+ 
+	background-color: #929292;
+	color: black;
+	padding: 2.5px 3px;
+	border: groove 2px; 
+	border-color: black;
+	border-radius: 21px;
+	font-family: cursive;
+	font-size: 20 px;	
+}
+.SubmitButton:hover{
+	color: yellow;	
+}
+.urlButton{
+     background-color: #b9cbb4;   
+       width: 100%;  
+        color: black;   
+        margin: 13px 0px;   
+        border: none;   
+        cursor: pointer;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+        font-size: 20 px;	
+        
+}
+.urlButton:hover{
+	color: red;		
+}
+.InfoBox { 
+	   padding: 25px;   
+	background-color: #078970;
+}
+.popupmessage {
+	 font-size: 14px;
+	color: white;
+}
